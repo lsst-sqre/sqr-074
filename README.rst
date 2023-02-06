@@ -7,14 +7,14 @@
   .. image:: https://zenodo.org/badge/doi/10.5281/zenodo.#####.svg
      :target: http://dx.doi.org/10.5281/zenodo.#####
 
-####################################
-Validation of new Phalanx deployment
-####################################
+#####################################
+Validation of new Phalanx deployments
+#####################################
 
 SQR-074
 =======
 
-The purpose of Phalanx has expanded from its original role specific to the Rubin Science Platform to providing an installation and configuration platform for a variety of Kubernetes clusters. New, minimal installations need validation to ensure that basic services are running correctly, including mechanisms to both manually and automatically test. This tech note proposes a new validation service plus supporting infrastructure for automated testing.
+Service and supporting infrastructure for validating a new Phalanx deployment that may or may not contain Science Platform services.
 
 **Links:**
 
