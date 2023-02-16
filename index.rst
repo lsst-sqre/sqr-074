@@ -4,7 +4,7 @@ Abstract
 ========
 
 The purpose of Phalanx_ has expanded from its original role in managing the configuration for the Rubin Science Platform to providing an installation and configuration platform for services deployed on Kubernetes clusters, which may contain any number of Rubin Science Platform services or none.
-New, minimal installations need validation to ensure that basic services are running correctly, including mechanisms to both manually and automatically test.
+New, minimal installations need validation to ensure that basic services are running correctly, including mechanisms to both manually and automatically test. Feedback that an installation has worked (or how it may be failing) is particularly useful for deployers without previous experience with phalanx, and is an important element towards productizing the platform for further community use. 
 This tech note proposes a new validation service plus supporting infrastructure for automated testing.
 
 .. _Phalanx: https://phalanx.lsst.io/
