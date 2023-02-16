@@ -13,7 +13,7 @@ serial_number: "074"
 doc_id: "SQR-074"
 
 # Title of the document, without the series/serial designation
-doc_title: "Validation of new Phalanx deployment"
+doc_title: "Validation of new Phalanx deployments"
 
 # Author names, ordered as a list. Each author name should be formatted as 'First Last'
 authors:
@@ -34,17 +34,23 @@ authors:
 # doi: 10.5281/zenodo.#####
 
 # Copyright statement
-copyright: "2023, Association of Universities for Research in Astronomy, Inc. (AURA)"
+copyright: >-
+  2023, Association of Universities for Research in Astronomy, Inc. (AURA)
 
 # Description. A short, 1-2 sentence statemement used by document indices.
-description: "The purpose of Phalanx has expanded from its original role specific to the Rubin Science Platform to providing an installation and configuration platform for a variety of Kubernetes clusters. New, minimal installations need validation to ensure that basic services are running correctly, including mechanisms to both manually and automatically test. This tech note proposes a new validation service plus supporting infrastructure for automated testing."
+description: >-
+  Service and supporting infrastructure for validating a new Phalanx
+  deployment that may or may not contain Science Platform services.
 
 # Abstract, if available
-# abstract: >
-#           Write your paragraph
-#           here with multiple lines.
-#
-#           You can have multiple paragraphs too.
+abstract: >-
+  The purpose of Phalanx has expanded from its original role specific to the
+  Rubin Science Platform to providing an installation and configuration
+  platform for a variety of Kubernetes clusters. New, minimal installations
+  need validation to ensure that basic services are running correctly,
+  including mechanisms to both manually and automatically test. This tech note
+  proposes a new validation service plus supporting infrastructure for
+  automated testing.
 
 # URL where this document is published by Read the Docs. e.g. http://sqr-001.lsst.codes
 url: "https://sqr-074.lsst.io"
